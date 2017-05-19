@@ -1,6 +1,6 @@
 $(function() {
-var target_date = new Data( "2017/5/19" ).getTime(); 
-	//var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
+//var target_date = new Data( "2017/5/19" ).getTime(); 
+	var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
 	var days, hours, minutes, seconds; // variables for time units
 
 	var countdown = document.getElementById("tiles"); // get tag element
